@@ -10,7 +10,7 @@ class Solution:
 
         for each in strs:
             # curr_cout = Counter(each)
-            uni_each = sorted(list(each))
+            uni_each = sorted(each)
             new_key = "".join(uni_each)
             # print(uni_each, new_key)
             if new_key not in groupping:
